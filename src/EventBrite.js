@@ -10,7 +10,7 @@ function EventBrite() {
             <header>
 
                 {/*
-                header top: aşağıdaki kodlar header bileşenlerini içeriyor
+                header top: aşağıdaki kodlar header bileşenlerini içeriyor!
                 */}
                 <div className="header-top-button1">
                     <div className="header-top-button2">
