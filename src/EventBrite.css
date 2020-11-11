@@ -1,0 +1,122 @@
+.header-top-button1 {
+    height:60px;
+    display: flex;
+    border-bottom:1px solid rgb(219, 218, 227);
+}
+.header-top-button2 {
+    display: flex;
+    width: 50% ;
+    align-items: center;
+}
+.headder-top-button-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.header-logo-text {
+    color: #F05537;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 20px 0 24px;
+}
+
+.header-top-text {
+    color: #39364f;
+    font-size: 15px;
+}
+
+.header-button {
+    height: 24px;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #3659e3;
+    border-color: #3659e3;
+    font-weight: 600;
+    margin-left: 16px;
+    border: 2px solid;
+    border-radius: 4px;
+    background: #fff;
+    align-items: center;
+}
+
+.header-price {
+    position: absolute;
+    bottom: 27px;
+    color: #39364f;
+    font-size: .9333333333rem;
+}
+
+.header-listing-panel {
+    position: relative;
+    height: 60px;
+    width: 50%;
+    align-items: center;
+}
+
+.header-details-button {
+    width: 100%;
+    max-width: 320px;
+    float: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #39364F;
+    background-color: #f7f7f9;
+    border-color: #6F7287;
+    height: 44px;
+    margin: 0px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header-span {
+    width: 100%;
+    display: inline-block;
+}
+
+.header-follow-button {
+    position: relative;
+    height: 44px;
+    padding: 0 30px 1px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #3659e3;
+    background: transparent;
+    border: 2px solid #3659e3;
+    border-radius: 4px;
+}
+
+.header-contact-button {
+    position: relative;
+    height: 44px;
+    padding: 0 30px 1px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #3659E3;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+.footer-link {
+    color: #DBDAE3;
+    font-size: .8rem;
+    line-height: 1rem;
+    text-decoration-line: none;
+}
+
+.footer-link-container {
+    padding: 25px 14%;
+    display: flex;
+    justify-content: center;
+}

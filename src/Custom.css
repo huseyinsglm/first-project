@@ -1,0 +1,54 @@
+.header-color-red {
+  color:red;
+}
+
+.header-color-white {
+  color: white;
+}
+
+.header-color-blue {
+  color:blue;
+}
+
+.header-font-size-small{
+  font-size: 20px;
+}
+
+.header-font-size-medium{
+  font-size: 30px;
+}
+
+.header-font-size-large{
+  font-size: 30px;
+}
+.header-hello {
+  font-size: 30px;
+  color:red;
+}
+.header-div {
+  padding-left: 30px;
+  border-style: solid;
+  border-color: white;
+  padding-right: 30px;
+  background-color: yellow;
+}
+.header-pic {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-color: white;
+  border-style: solid;
+}
+.header-first-header{
+  display: flex;
+  align-items: center;
+}
+.header-main-paragraph{
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: justify;
+  font-size: 20px;
+}
+
