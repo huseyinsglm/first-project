@@ -1,0 +1,20 @@
+.footer-wrapper {
+    border-top: #4B4D63 solid 6px;
+    color: #A9A8B3;
+    position: relative;
+    background: #1E0A3C;
+}
+
+.footer-logo {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.footer-copy-write {
+    text-align: center;
+    font-size: .9333333333rem;
+    font-hight: 1.25rem;
+    color: #A9A8B3;
+    padding-bottom: 20px;
+}

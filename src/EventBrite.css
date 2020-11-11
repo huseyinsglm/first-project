@@ -1,31 +1,11 @@
-.header-top-button1 {
-    height:60px;
-    display: flex;
-    border-bottom:1px solid rgb(219, 218, 227);
-}
-.header-top-button2 {
-    display: flex;
-    width: 50% ;
-    align-items: center;
-}
-.headder-top-button-container{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    justify-content: space-evenly;
-}
-.header-logo-text {
-    color: #F05537;
-    font-weight: bold;
-    font-size: 25px;
-    margin: 0px 20px 0 24px;
-}
 
-.header-top-text {
-    color: #39364f;
-    font-size: 15px;
-}
 
+.header-img-container {
+    width: 1080px;
+    margin-left: auto ;
+    margin-right: auto ;
+    border: 1px solid rgb(219, 218, 227) ;
+}
 .header-button {
     height: 24px;
     font-size: 12px;

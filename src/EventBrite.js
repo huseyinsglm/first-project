@@ -2,6 +2,8 @@ import React from 'react';
 // import logo from './logo.svg';
 import eventImg from './image/https___cdn.evbuc.com_images_89020505_182934487936_1_original.jpg'
 import './EventBrite.css';
+import './Header.css';
+import './Footer.css';
 import logoImg from './image/https___cdn.evbuc.com_images_61277322_182934487936_2_original.png'
 
 function EventBrite() {
@@ -12,12 +14,12 @@ function EventBrite() {
                 {/*
                 header top: aşağıdaki kodlar header bileşenlerini içeriyor
                 */}
-                <div className="header-top-button1">
-                    <div className="header-top-button2">
+                <div className="header-top-wrapper">
+                    <div className="header-top-search-container">
                         <p className="header-logo-text">evenbrite</p>
                         <p className="header-top-text">Search for events</p>
                     </div>
-                    <div className="headder-top-button-container">
+                    <div className="header-top-button-container">
                         <p className="header-top-text">Browse Events</p>
                         <p className="header-top-text">Create Event</p>
                         <p className="header-top-text">Help</p>
@@ -27,12 +29,7 @@ function EventBrite() {
                 </div>
 
                 <div> aa</div>
-                <div style={{
-                    width: "1080px",
-                    marginLeft: "auto",
-                    marginRight: "auto",
-                    border: "1px solid rgb(219, 218, 227)"
-                }}>
+                <div className="header-img-container">
 
                     {/*
                         event imajı ve bilgileri içeriyor
@@ -245,12 +242,7 @@ function EventBrite() {
 
                 </div>
 
-                <div style={{
-                    borderTop: "#4B4D63 solid 6px",
-                    color: "#A9A8B3",
-                    position: "relative",
-                    background: "#1E0A3C",
-                }}>
+                <div className="footer-wrapper">
                     <div className="footer-link-container">
 
                         <div style={{width: "25%"}}>
@@ -303,19 +295,9 @@ function EventBrite() {
 
 
                     </div>
-                    <div style={{
-                        textAlign: "center",
-                        fontSize: "48px",
-                        fontWeight: "500"
-                    }}>e
+                    <div className="footer-logo">e
                     </div>
-                    <div style={{
-                        textAlign: "center",
-                        fontSize: ".9333333333rem",
-                        fontHight: " 1.25rem",
-                        color: "#A9A8B3",
-                        paddingBottom: "20px"
-                    }}>© 2020 Eventbrite
+                    <div className="footer-copy-write">© 2020 Eventbrite
                     </div>
 
                 </div>
