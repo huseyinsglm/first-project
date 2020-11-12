@@ -2,7 +2,6 @@
     border-top: #4B4D63 solid 6px;
     color: #A9A8B3;
     position: relative;
-    background: #1E0A3C;
 }
 
 .footer-logo {
@@ -17,4 +16,27 @@
     font-hight: 1.25rem;
     color: #A9A8B3;
     padding-bottom: 20px;
+}
+
+.footer-link-column {
+    width: 25%;
+}
+
+.footer-link {
+    color: #DBDAE3;
+    font-size: .8rem;
+    line-height: 1rem;
+    text-decoration-line: none;
+}
+
+.footer-link-container {
+    padding: 25px 14%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link-share {
+    padding-left: 65px;
+    border-bottom: 1px solid rgb(219, 218, 227);
+    padding-bottom: 30px;
 }

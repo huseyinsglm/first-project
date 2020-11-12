@@ -1,9 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import eventImg from './image/https___cdn.evbuc.com_images_89020505_182934487936_1_original.jpg'
-import './EventBrite.css';
 import './Header.css';
 import './Footer.css';
+import './Customization.css';
+import './Body.css';
 import logoImg from './image/https___cdn.evbuc.com_images_61277322_182934487936_2_original.png'
 
 function EventBrite() {
@@ -16,7 +17,7 @@ function EventBrite() {
                 */}
                 <div className="header-top-wrapper">
                     <div className="header-top-search-container">
-                        <p className="header-logo-text">evenbrite</p>
+                        <p className="header-logo-text header-logo-text-color">evenbrite</p>
                         <p className="header-top-text">Search for events</p>
                     </div>
                     <div className="header-top-button-container">
@@ -29,30 +30,28 @@ function EventBrite() {
                 </div>
 
                 <div> aa</div>
-                <div className="header-img-container">
+
+                <div className="body">
 
                     {/*
                         event imajı ve bilgileri içeriyor
                     */}
-                    <div style={{display: "flex", position: "relative"}}>
+                    <div className="body-image">
                         <div>
-                            <img src={eventImg} alt="logo" style={{width: "720px"}}/>
+                            <img src={eventImg} alt="logo" className="body-image-width"/>
                         </div>
-                        <div style={{
-                            width: "360px", marginLeft: "25px", fontSize: "17px", color: "#1E0A3C",
-                            backgroundColor: "rgba(255,255,255,0.9)"
-                        }}>
-                            <p className="header-top-text">OCT </p>
-                            <p className="header-top-text"> 27</p>
-                            <div style={{fontWeight: "600", fontSize: "22px", color: "#1E0A3C"}}>
+                        <div className="body-timer-container">
+                            <p className="body-timer-text">OCT </p>
+                            <p className="body-timer-text"> 27</p>
+                            <div className="body-timer-container-header">
                                 GraphQL Summit 2020
                             </div>
 
                             <div style={{margin: "20px"}}>
                             </div>
                             By Apollo GraphQL
-                            <button className="header-button" type="button"> Follow </button>
-                            <div className="header-price">
+                            <button className="body-timer-container-button-follow" type="button"> Follow </button>
+                            <div className="body-price">
                                 $649
                             </div>
 
@@ -65,29 +64,24 @@ function EventBrite() {
                     {/*
                         detail butonu
                     */}
-                    <div style={{display: "flex", padding: "10px 0px", borderBottom: "1px solid rgb(219, 218, 227)"}}>
-                        <div style={{display: "flex", width: "50%", alignItems: "center", marginLeft: "20px"}}>
+                    <div className="body-sharing-button-container">
+                        <div className="body-sharing-buttons">
                             Share
-                            <div style={{display: "flex", width: "50%", alignItems: "center", margin: "15px"}}>
+                            <div className="body-sharing-buttons">
                                 Like
                             </div>
                         </div>
-                        <div style={{display: "flex", alignItems: "center", justifyContent: "flex-end", width: "50%"}}>
+                        <div className="body-sales-button">
                             Sales Ended
-                            <button className="header-details-button" type="button"> Details </button>
+                            <button className="body-details-button" type="button"> Details </button>
                         </div>
                     </div>
 
                     {/*
                         description body
                     */}
-                    <div style={{
-                        display: "flex",
-                        margin: "50px",
-                        addingTop: "50px",
-                        position: "relative"
-                    }}>
-                        <div style={{width: "65%", textAlign: "justify", paddingRight: "10px", paddingLeft: "20px"}}>
+                    <div className="body-description-container">
+                        <div className="body-description-text">
                             <p>
                                 <p> Description </p>
 
@@ -125,48 +119,20 @@ function EventBrite() {
                                 </strong></p>
                             </p>
                             <p> Tag </p>
-                            <div className="header-span" style={{
-                                display: "flex",
-                                flexWrap: "wrap"
-                            }}>
-                                <span style={{
-                                    border: "1px solid #6F7287",
-                                    borderRadius: "15px",
-                                    padding: "0 5px",
-                                    margin: "2px",
-                                }}>
+                            <div className="body-span-container">
+                                <span className="body-span-tags">
                                     United States Events</span>
-                                <span style={{
-                                    border: "1px solid #6F7287",
-                                    borderRadius: "15px",
-                                    padding: "0 5px",
-                                    margin: "2px",
-                                }}>
+                                <span className="body-span-tags">
                                     California Events</span>
-                                <span style={{
-                                    border: "1px solid #6F7287",
-                                    borderRadius: "15px",
-                                    padding: "0 5px",
-                                    margin: "2px",
-                                }}>
+                                <span className="body-span-tags">
                                     Things to do in San Francisco, CA</span>
-                                <span style={{
-                                    border: "1px solid #6F7287",
-                                    borderRadius: "15px",
-                                    padding: "0 5px",
-                                    margin: "2px",
-                                }}>
+                                <span className="body-span-tags">
                                     San Francisco Conferences</span>
-                                <span style={{
-                                    border: "1px solid #6F7287",
-                                    borderRadius: "15px",
-                                    padding: "0 5px",
-                                    margin: "2px"
-                                }}>
+                                <span className="body-span-tags">
                                     San Francisco Science & Tech Conferences</span>
                             </div>
                         </div>
-                        <div style={{width: "35%", textAlign: "justify", paddingRight: "10px", paddingLeft: "20px"}}>
+                        <div className="body-date-time">
                             <p>
                                 <p> Date And Time </p>
                                 Tue, Oct 27, 2020, 7:00 AM –
@@ -192,60 +158,37 @@ function EventBrite() {
                     </div>
 
                     <div style={{paddingLeft: "65px"}}>Share With Friends</div>
-                    <div style={{
-                        paddingLeft: "65px",
-                        borderBottom: "1px solid rgb(219, 218, 227)",
-                        paddingBottom: "30px"
-                    }}>SHARE LİNK
+                    <div className="footer-link-share ">SHARE LİNK
                     </div>
-                    <div style={{textAlign: "center", paddingTop: "55px"}}>
-                        <img src={logoImg} alt="logo" style={{width: "80px"}}/>
+                    <div className="body-company-logo-container">
+                        <img src={logoImg} alt="logo" className="body-company-logo"/>
                     </div>
-                    <div style={{textAlign: "center", paddingTop: "12px", color: "#3659E3", fontSize: "17px"}}>
+                    <div className="body-company-name ">
                         Apollo GraphQL
-                        <p style={{color: "black", fontSize: "17px"}}>Organizer of GraphQL Summit 2020</p>
+                        <p className="body-company-header">Organizer of GraphQL Summit 2020</p>
                     </div>
-                    <div style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        color: "#3659e3",
-                        textAlign: "center"
-                    }}>
+                    <div className="body-company-social-container">
                         <p style={{marginRight: "20px"}}>F apollographql</p>
                         <p> T apollographql</p>
                     </div>
-                    <div style={{
-                        display: "flex",
-                        padding: "0 15%",
-                        textAlign: "justify",
-                        color: "#6F7287"
-                    }}>
+                    <div className="body-company-header-description">
                         <p>Apollo delivers a complete platform that helps developers build apps faster and easier by
                             getting the most out of GraphQL. Our technologies are used in production by top startups and
                             enterprises worldwide including Airbnb, Audi, GitHub, The New York Times, and CNBC. Based in
                             San Francisco with employees around the globe, we are backed by Andreessen Horowitz, Matrix
                             Partners, Trinity Ventures, and Y Combinator.</p>
                     </div>
-                    <div
-                        style={{
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            borderBottom: "1px solid rgb(219, 218, 227)",
-                            paddingBottom: "40px",
-                        }}>
-                        <button className="header-follow-button" type="button"> Follow</button>
-                        <button className="header-contact-button" type="button"> Contact</button>
+                    <div className="body-company-follow-container">
+                        <button className="body-company-follow-button" type="button"> Follow</button>
+                        <button className="body-company-contact-button" type="button"> Contact</button>
                     </div>
                     <div>popup</div>
 
                 </div>
 
-                <div className="footer-wrapper">
+                <div className="footer-wrapper footer-background-color">
                     <div className="footer-link-container">
-
-                        <div style={{width: "25%"}}>
+                        <div className="footer-link-column">
                             <p>Use Eventbrite</p>
                             <a href="https://www.eventbrite.com/organizer/overview/"
                                className="footer-link">How it Works</a>
@@ -256,7 +199,7 @@ function EventBrite() {
                                   className="footer-link">Event Blog</a></p>
 
                         </div>
-                        <div style={{width: "25%"}}>
+                        <div className="footer-link-column">
                             <p>Plan Events</p>
                             <p><a href="https://www.eventbrite.com/l/registration-online/"
                                   className="footer-link">Online Registration</a></p>
@@ -266,7 +209,7 @@ function EventBrite() {
                                   className="footer-link">Event Management Software</a></p>
 
                         </div>
-                        <div style={{width: "25%"}}>
+                        <div className="footer-link-column">
                             <p>Find Events</p>
                             <p><a href="/d/ca--san-francisco/events/"
                                   className="footer-link">Browse San Francisco Events</a></p>
@@ -275,7 +218,7 @@ function EventBrite() {
 
 
                         </div>
-                        <div style={{width: "25%"}}>
+                        <div className="footer-link-column">
                             <p>Connect With Us</p>
                             <p><a title="Report This Event" id="report_this_link"
                                   className="footer-link" href=""
@@ -292,16 +235,14 @@ function EventBrite() {
                                   className="footer-link">Community Guidelines</a></p>
 
                         </div>
-
-
                     </div>
-                    <div className="footer-logo">e
+                    <div className="footer-logo">
+                        e
                     </div>
-                    <div className="footer-copy-write">© 2020 Eventbrite
+                    <div className="footer-copy-write">
+                        © 2020 Eventbrite
                     </div>
-
                 </div>
-
 
             </header>
         </div>

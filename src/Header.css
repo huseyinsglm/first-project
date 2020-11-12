@@ -1,27 +1,25 @@
 .header-top-wrapper {
-    height:60px;
+    height: 60px;
     display: flex;
-    border-bottom:1px solid rgb(219, 218, 227);
+    border-bottom: 1px solid rgb(219, 218, 227);
 }
+
 .header-top-search-container {
     display: flex;
-    width: 50% ;
+    width: 50%;
     align-items: center;
 }
-.header-top-button-container{
+
+.header-top-button-container {
     display: flex;
     align-items: center;
     width: 50%;
     justify-content: space-evenly;
 }
+
 .header-logo-text {
-    color: #F05537;
     font-weight: bold;
     font-size: 25px;
     margin: 0 20px 0 24px;
 }
 
-.header-top-text {
-    color: #39364f;
-    font-size: 15px;
-}
